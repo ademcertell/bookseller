@@ -12,3 +12,9 @@ yarn dev
 ## Built With
 - [Next.js](https://nextjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
+
+## Todo List
+- [ ] Managing the book "Add Book, Edit Book, Delete Book"
+- [ ] Access system "Login, Register, Logout"
+- [ ] Book search system
+- [ ] Book detail page
