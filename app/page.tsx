@@ -17,20 +17,20 @@ export default function Home() {
               className="rounded-lg shadow-lg object-cover object-center overflow-hidden mb-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110  hover:shadow-2xl  hover:rounded-xl  hover:opacity-80  hover:cursor-pointer "
             />
             <Link
-              className="text-xl font-bold text-black hover:text-gray-500 transition duration-300 ease-in-out"
+              className="text-xl font-bold text-black hover:text-gray-500 dark:text-gray-200 transition duration-300 ease-in-out"
               href={`${book.href}`}
               target="_blank"
             >
               {book.title}
             </Link>
             <div>
-              <span className="text-gray-500">By {book.author}</span>
+              <span className="text-gray-500 dark:text-gray-400">By {book.author}</span>
               <div className="">
-                <span className="text-gray-500">Price: </span>
-                <span className="text-xl font-bold">${book.price}</span>
+                <span className="text-gray-500 dark:text-gray-500">Price: </span>
+                <span className="text-xl font-bold dark:text-gray-400">${book.price}</span>
               </div>
               <div>
-                <span className="text-gray-500  line-clamp-3">
+                <span className="text-gray-500 dark:text-gray-300  line-clamp-3">
                   {book.description}
                 </span>
               </div>
@@ -38,7 +38,6 @@ export default function Home() {
           </div>
         ))}
       </div>
-
     </div>
   );
 }
