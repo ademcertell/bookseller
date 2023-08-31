@@ -15,6 +15,7 @@ yarn dev
 
 ## Todo List
 - [ ] Managing the book "Add Book, Edit Book, Delete Book"
-- [ ] Access system "Login, Register, Logout"
+- [x] Access system "Login, Register"
+- [x] Profile card made
 - [ ] Book search system
 - [ ] Book detail page

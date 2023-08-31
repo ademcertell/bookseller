@@ -6,6 +6,14 @@ const nextConfig = {
       "m.media-amazon.com",
       "images-na.ssl-images-amazon.com",
     ],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+        port: "",
+        pathname: "/u/**",
+      },
+    ],
   },
 };
 
