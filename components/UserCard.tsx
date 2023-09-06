@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import AddBook from "./AddBook";
 
 type User = {
   name?: string | null | undefined;
@@ -31,13 +29,9 @@ export default function ProfileCard({ user, pagetype, bookCount }: Props) {
           </div>
         )}
       </div>
-
       <h2 className="text-2xl font-bold">{user?.name}</h2>
       <p className="text-gray-600">{user?.email}</p>
-
       <p className="text-gray-500">Toplam {bookCount} kitap eklediniz.</p>
-
-      <AddBook/>
     </section>
   );
 }

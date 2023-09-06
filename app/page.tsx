@@ -24,10 +24,16 @@ export default function Home() {
               {book.title}
             </Link>
             <div>
-              <span className="text-gray-500 dark:text-gray-400">By {book.author}</span>
+              <span className="text-gray-500 dark:text-gray-400">
+                By {book.author}
+              </span>
               <div className="">
-                <span className="text-gray-500 dark:text-gray-500">Price: </span>
-                <span className="text-xl font-bold dark:text-gray-400">${book.price}</span>
+                <span className="text-gray-500 dark:text-gray-500">
+                  Price:{" "}
+                </span>
+                <span className="text-xl font-bold dark:text-gray-400">
+                  ${book.price}
+                </span>
               </div>
               <div>
                 <span className="text-gray-500 dark:text-gray-300  line-clamp-3">
